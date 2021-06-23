@@ -24,7 +24,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export":"next export"
+    "export":"next export",
+    "predev":"node ./buildFunctionContent.js",
+    "prebuild":"node ./buildFunctionContent.js"
   },
   "author": "Hamid_sh",
   "license": "ISC"
